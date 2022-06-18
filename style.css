@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.dec{
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    height: 30px;
+    align-items: center;
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    padding: 30px;
+}
+.sedans h2{
+    padding: 20px;
+}
+.sedans a{
+    margin-top: 50px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.suvs h2{
+    padding: 20px;
+}
+.suvs p{
+    margin-bottom: 10px;
+}
+.suvs a{
+    margin-top: 20px;
+}
+.luxury h2{
+    padding: 20px;
+}
+.luxury a{
+    margin-top: 20px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+.box{
+    height: 55vh;
+    width: auto;
+    position: relative;
+}
+a{
+    cursor: pointer;
+    display: inline-block;
+    background-color: none;
+    border: 1px #000 solid;
+    border-radius: 20px;
+    padding: 7px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+
+@media (max-width: 375px){
+    .container{
+        width: 50%;
+        align-content: center;
+        display: block;
+    }
+    .box{
+        position: relative;
+    }
+}
